@@ -125,7 +125,7 @@ choice1.onclick = function () {
   choose(0)
 }
 choice2.onclick = function () {
-  // 1番目の選択肢を選択
+  // 1番目の選択肢を選択let
   choose(1)
 }
 choice3.onclick = function () {

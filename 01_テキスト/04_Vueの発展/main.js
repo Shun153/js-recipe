@@ -25,7 +25,7 @@ const vIfSignIn = {
   methods: {
     signIn() {
       this.user = {
-        name: "ギーク太郎",
+        name: "宮崎俊也",
       }
     },
     signOut() {

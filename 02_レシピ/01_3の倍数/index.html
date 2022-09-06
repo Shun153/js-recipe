@@ -8,10 +8,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scal=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>MultipleOfThree</title>
+    <title>FizzBuzz</title>
   </head>
 
   <body>
-    <script src="main.js"></script>
+    <script>
+      const FizzBuzz = function (number) {
+        for (let n = 1; n <= number; n++) {
+          if (n % 15 == 0) {
+            console.loe("FizzBuzz")
+          } else if (n % 3 == 0) {
+            console.log("Fizz")
+          } else if (n % 5 == 0) {
+            console.log("Buzz")
+          } else {
+            console.log(n)
+          }
+        }
+      }
+    </script>
   </body>
 </html>
